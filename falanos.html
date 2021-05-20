@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <title>Pensador</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <div id="interface">
+            <header id="cbecalho">
+                <hgroup>
+                    <h1>O Lado Bom da Vida Com Deus</h1>
+                    <h2>Buscando a Dues Sempre</h2>
+                </hgroup>
+                <img src="imagens/pense.png" alt="Ouve um erro com a imagem!" width="200px"
+                height="200px">
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ol>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="grupos.html">Grupos</a></li>
+                        <li><a href="publicacao.html">Criar Publicação</a></li>
+                        <li><a href="falanos.html">Fale Conosco</a></li>
+                    </ol>
+                </nav>
+            </header>
+            <form method="POST" id="fconosco" action="mailto:rafaeltavares3570@gmail.com">
+                <fieldset id="indent">
+                    <legend>Identificador do Usuário</legend>
+                    <label for="nome">Nome:<input type="text" name="tnome" id="nome" size="30" maxlength="45" placeholder="Digete o seu nome!"></label><br>
+                    <label for="emai">Email:<input type="email" name="ema" id="emai" size="30" placeholder="Digite o seu Email"></label>
+                    <fieldset id="sexo">
+                        <legend>Sexo</legend>
+                        <label for="masc"><input type="radio" name="sexo" id="masc">Masculino</label>
+                        <label for="femi"><input type="radio" name="sexo" id="femi">Feminino</label>
+                    </fieldset>
+                    <label for="nat">Data de Nascimento: <input type="date" name="deta" id="nat"></label>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
